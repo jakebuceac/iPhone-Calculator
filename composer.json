@@ -1,0 +1,23 @@
+{
+    "name": "bucea/calculator-task",
+    "authors": [
+        {
+            "name": "Jake Buceac",
+            "email": "jake@3sidedcube.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CalculatorSystem\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CalculatorSystem\\Tests\\": "tests/"
+        }
+    },
+    "description": "To represent an iPhone calculator",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
