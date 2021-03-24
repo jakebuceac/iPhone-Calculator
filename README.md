@@ -10,14 +10,14 @@ Class represents a typical iPhone calculator:
 
 Example: 
 
-  $calculator = new Calculator();
-  $calculator->pressNumber(1);
-  // outputs 1
-  $calculator->pressNumber(3);
-  // outputs 13
-  $calculator->add();
-  // outputs 13
-  $calculator->pressNumber(3);
-  // outputs 3
-  $calculator->equals();
-  // outputs 16
+  - $calculator = new Calculator();
+  - $calculator->pressNumber(1);
+  - // outputs 1
+  - $calculator->pressNumber(3);
+  - // outputs 13
+  - $calculator->add();
+  - // outputs 13
+  - $calculator->pressNumber(3);
+  - // outputs 3
+  - $calculator->equals();
+  - // outputs 16
