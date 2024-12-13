@@ -2,7 +2,7 @@
 
 Class represents a typical iPhone calculator:
 
-  - Is able to perform the addition, subtraction, multiplication etc.
+  - Is able to perform addition, subtraction, multiplication and division.
   - Has the concept of the "screen" which would behave like a traditional calculator. 
   - Every time you "press" a button the screen updates (just echo out the current screen state) depending on which button you press.
   - Press + and it then waits for you to press a number button and then if you pressed = it would perform the calculation.
